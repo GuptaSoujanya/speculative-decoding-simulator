@@ -10,3 +10,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-05-04] feat: implement Monte Carlo rejection sampling step for speculative tokens
 - [2023-05-08] feat: add draft token sequence generator with parameterized agreement probability
 - [2023-05-12] test: add unit tests for target model rejection probability distribution
+- [2023-05-16] feat: compute effective latency per token under speculative execution
