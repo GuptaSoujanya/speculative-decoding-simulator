@@ -15,3 +15,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-05-24] feat: add hardware cost model parameterized by target and draft forward latencies
 - [2023-05-29] test: verify hardware cost model predicts breakeven acceptance rate accurately
 - [2023-06-02] docs: document theoretical foundations of speculative decoding (Leviathan 2022)
+- [2023-06-06] feat: implement optimal draft window length (K) search algorithm
