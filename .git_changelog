@@ -19,3 +19,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-06-10] feat: compute optimal K maximizing throughput given target/draft latency ratio
 - [2023-06-14] test: add test suite for draft window optimizer under diverse latency ratios
 - [2023-06-18] feat: implement spec-decode command line runner with configurable gamma and K
+- [2023-06-22] ci: configure GitHub Actions automated matrix testing for Python 3.10-3.12
