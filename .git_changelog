@@ -27,3 +27,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-07-13] test: verify KV cache memory calculation matches hardware tensor dimensions
 - [2023-07-17] fix: handle edge case where draft model forward pass is slower than target
 - [2023-07-21] feat: add markdown report generation for speculative decoding experiments
+- [2023-07-25] feat: add structured JSON telemetry export for automated benchmark pipelines
