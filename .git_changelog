@@ -31,3 +31,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-07-29] docs: add real-world benchmark tables for LLaMA-70B (target) + LLaMA-7B (draft)
 - [2023-08-02] feat: implement rolling acceptance rate window tracking across sequence positions
 - [2023-08-06] test: verify rolling acceptance window correctly computes moving average
+- [2023-08-10] fix: correct latency calculation when all speculative tokens are accepted
