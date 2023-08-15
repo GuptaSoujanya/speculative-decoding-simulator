@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speculative-decoding-simulator"
+version = "0.1.8"
+description = "Mathematical simulator for speculative decoding acceptance rates and latency speedup factors."
+readme = "README.md"
+authors = [{ name = "Soujanya Gupta", email = "soujanya.gupta@ethara.ai" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+
+[project.scripts]
+spec-sim = "spec_sim.cli:main"
