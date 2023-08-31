@@ -36,3 +36,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-08-18] docs: add hardware latency profiles for NVIDIA H100 and A100 SXM5
 - [2023-08-23] feat: generate CSV summary of latency vs acceptance rate curves
 - [2023-08-27] feat: implement draft model temperature sampling agreement simulator
+- [2023-08-31] test: verify greedy decoding yields higher acceptance than high temperature
