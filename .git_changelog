@@ -39,3 +39,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-08-31] test: verify greedy decoding yields higher acceptance than high temperature
 - [2023-09-04] fix: prevent index out of bounds when draft sequence length is 1
 - [2023-09-08] feat: add visual ASCII histogram for token acceptance length distributions
+- [2023-09-12] docs: add comprehensive mathematical derivations in docs/theory.md
