@@ -40,3 +40,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-09-04] fix: prevent index out of bounds when draft sequence length is 1
 - [2023-09-08] feat: add visual ASCII histogram for token acceptance length distributions
 - [2023-09-12] docs: add comprehensive mathematical derivations in docs/theory.md
+- [2023-09-16] perf: optimize random probability array generation before trial loop
