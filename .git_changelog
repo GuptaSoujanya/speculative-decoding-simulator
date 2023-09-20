@@ -41,3 +41,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-09-08] feat: add visual ASCII histogram for token acceptance length distributions
 - [2023-09-12] docs: add comprehensive mathematical derivations in docs/theory.md
 - [2023-09-16] perf: optimize random probability array generation before trial loop
+- [2023-09-20] feat: add --seed CLI parameter for deterministic simulation runs
