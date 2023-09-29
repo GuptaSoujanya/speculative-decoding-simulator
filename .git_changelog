@@ -43,3 +43,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-09-16] perf: optimize random probability array generation before trial loop
 - [2023-09-20] feat: add --seed CLI parameter for deterministic simulation runs
 - [2023-09-24] test: verify reproducible simulation outputs across runs with identical seed
+- [2023-09-29] fix: guard against division by zero when draft latency is configured to zero
