@@ -45,3 +45,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-09-24] test: verify reproducible simulation outputs across runs with identical seed
 - [2023-09-29] fix: guard against division by zero when draft latency is configured to zero
 - [2023-10-03] feat: add --quiet flag for scripting and automated batch runs
+- [2023-10-07] docs: add tutorial walkthrough for optimizing draft models on local hardware
