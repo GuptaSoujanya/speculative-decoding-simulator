@@ -48,3 +48,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-10-07] docs: add tutorial walkthrough for optimizing draft models on local hardware
 - [2023-10-11] feat: support custom acceptance probability distribution functions
 - [2023-10-15] test: add unit tests for custom acceptance probability decay functions
+- [2023-10-19] feat: implement cumulative token generation throughput tracker (tokens/sec)
