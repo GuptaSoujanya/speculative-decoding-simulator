@@ -52,3 +52,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-10-23] test: verify throughput tracker scales linearly with wall-clock speedup
 - [2023-10-27] fix: handle fractional draft length values in search grid safely
 - [2023-10-31] docs: add hardware breakeven analysis for consumer GPUs (RTX 4090)
+- [2023-11-04] feat: add early termination heuristic when first token is rejected
