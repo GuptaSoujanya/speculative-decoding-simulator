@@ -57,3 +57,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-11-13] perf: inline probability checks to reduce function call overhead
 - [2023-11-17] refactor: modularize simulation engine into core, models, and reporters
 - [2023-11-21] test: add comprehensive integration test validating end-to-end simulation
+- [2023-11-25] docs: update README with installation steps, CLI examples, and benchmark tables
