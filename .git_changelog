@@ -62,3 +62,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-12-03] fix: resolve floating point rounding discrepancies in speedup reporter
 - [2023-12-07] chore: bump version to v0.8.0 and package release metadata
 - [2023-12-11] chore: format codebase with black and ensure zero flake8 warnings
+- [2023-12-15] chore: finalize milestone v0.8.0 configuration schema
