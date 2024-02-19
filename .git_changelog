@@ -66,3 +66,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-01-10] feat: implement tree speculative decoding (MQA / Medusa style multi-candidate)
 - [2024-01-23] feat: model branch candidate verification in single target forward pass
 - [2024-02-06] test: add unit tests for tree speculative candidate acceptance logic
+- [2024-02-19] fix: prevent index out of bounds when all tree draft candidates are rejected
