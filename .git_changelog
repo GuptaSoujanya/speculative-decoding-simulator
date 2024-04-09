@@ -7,3 +7,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-03-19] feat: implement Leviathan et al. expected token speedup equation
 - [2024-03-26] feat: compute theoretical speedup as a function of draft acceptance rate gamma
 - [2024-04-02] test: verify theoretical speedup equals 1.0 at gamma=0 and K+1 at gamma=1
+- [2024-04-09] feat: implement Monte Carlo rejection sampling step for speculative tokens
