@@ -9,3 +9,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-04-02] test: verify theoretical speedup equals 1.0 at gamma=0 and K+1 at gamma=1
 - [2024-04-09] feat: implement Monte Carlo rejection sampling step for speculative tokens
 - [2024-04-16] feat: add draft token sequence generator with parameterized agreement probability
+- [2024-04-23] test: add unit tests for target model rejection probability distribution
