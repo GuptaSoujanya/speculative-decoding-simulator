@@ -11,3 +11,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-04-16] feat: add draft token sequence generator with parameterized agreement probability
 - [2024-04-23] test: add unit tests for target model rejection probability distribution
 - [2024-04-30] feat: compute effective latency per token under speculative execution
+- [2024-05-07] feat: calculate Wall-Clock Speedup Ratio (WCSR) accounting for draft forward overhead
