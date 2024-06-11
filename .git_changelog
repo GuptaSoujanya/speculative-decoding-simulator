@@ -16,3 +16,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-05-21] test: verify hardware cost model predicts breakeven acceptance rate accurately
 - [2024-05-28] docs: document theoretical foundations of speculative decoding (Leviathan 2022)
 - [2024-06-04] feat: implement optimal draft window length (K) search algorithm
+- [2024-06-11] feat: compute optimal K maximizing throughput given target/draft latency ratio
