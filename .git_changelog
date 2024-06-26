@@ -18,3 +18,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-06-04] feat: implement optimal draft window length (K) search algorithm
 - [2024-06-11] feat: compute optimal K maximizing throughput given target/draft latency ratio
 - [2024-06-19] test: add test suite for draft window optimizer under diverse latency ratios
+- [2024-06-26] feat: implement spec-decode command line runner with configurable gamma and K
