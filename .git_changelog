@@ -78,3 +78,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-06-21] feat: export percentile latencies (P50, P90, P99) of generated tokens
 - [2024-07-04] docs: document speculative decoding breakeven threshold equation
 - [2024-07-18] perf: vectorize tree path traversal using NumPy index matrices
+- [2024-08-01] test: verify tree decoding speedup strictly exceeds sequential speculative decoding
