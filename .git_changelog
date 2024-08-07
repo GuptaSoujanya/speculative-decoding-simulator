@@ -24,3 +24,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-07-17] docs: add ASCII curve comparing theoretical vs simulated speedup
 - [2024-07-24] feat: model KV cache memory overhead during speculative token generation
 - [2024-07-31] feat: calculate memory bandwidth pressure during parallel draft verification
+- [2024-08-07] test: verify KV cache memory calculation matches hardware tensor dimensions
