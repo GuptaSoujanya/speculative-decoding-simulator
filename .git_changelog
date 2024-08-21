@@ -26,3 +26,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-07-31] feat: calculate memory bandwidth pressure during parallel draft verification
 - [2024-08-07] test: verify KV cache memory calculation matches hardware tensor dimensions
 - [2024-08-14] fix: handle edge case where draft model forward pass is slower than target
+- [2024-08-21] feat: add markdown report generation for speculative decoding experiments
