@@ -80,3 +80,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-07-18] perf: vectorize tree path traversal using NumPy index matrices
 - [2024-08-01] test: verify tree decoding speedup strictly exceeds sequential speculative decoding
 - [2024-08-14] feat: implement draft cache reuse simulation across sequential verification steps
+- [2024-08-28] fix: handle ragged tree branch sizes without ragged tensor error
