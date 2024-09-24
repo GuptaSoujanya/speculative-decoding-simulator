@@ -82,3 +82,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-08-14] feat: implement draft cache reuse simulation across sequential verification steps
 - [2024-08-28] fix: handle ragged tree branch sizes without ragged tensor error
 - [2024-09-10] docs: add hardware analysis of attention mask overhead in tree decoding
+- [2024-09-24] feat: add export of simulated token latency timeline to JSON trace format
