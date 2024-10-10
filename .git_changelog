@@ -33,3 +33,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-09-19] test: verify rolling acceptance window correctly computes moving average
 - [2024-09-26] fix: correct latency calculation when all speculative tokens are accepted
 - [2024-10-03] perf: reduce Python object creation overhead in simulation inner loop
+- [2024-10-10] docs: add hardware latency profiles for NVIDIA H100 and A100 SXM5
