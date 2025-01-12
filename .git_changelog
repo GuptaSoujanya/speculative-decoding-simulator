@@ -43,3 +43,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-11-28] perf: optimize random probability array generation before trial loop
 - [2024-12-05] feat: add --seed CLI parameter for deterministic simulation runs
 - [2024-12-12] chore: bump version to v0.8.0 and package release metadata
+- [2025-01-12] feat: implement tree speculative decoding (MQA / Medusa style multi-candidate)
