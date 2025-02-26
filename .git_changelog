@@ -47,3 +47,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-01-23] feat: model branch candidate verification in single target forward pass
 - [2025-02-03] test: add unit tests for tree speculative candidate acceptance logic
 - [2025-02-15] fix: prevent index out of bounds when all tree draft candidates are rejected
+- [2025-02-26] perf: optimize acceptance probability calculation by reusing logits buffers
