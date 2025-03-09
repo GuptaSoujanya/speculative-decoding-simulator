@@ -48,3 +48,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-02-03] test: add unit tests for tree speculative candidate acceptance logic
 - [2025-02-15] fix: prevent index out of bounds when all tree draft candidates are rejected
 - [2025-02-26] perf: optimize acceptance probability calculation by reusing logits buffers
+- [2025-03-09] feat: add --tree-depth and --tree-branches parameters to CLI
