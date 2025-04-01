@@ -50,3 +50,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-02-26] perf: optimize acceptance probability calculation by reusing logits buffers
 - [2025-03-09] feat: add --tree-depth and --tree-branches parameters to CLI
 - [2025-03-21] docs: add comparative table of sequential vs tree speculative decoding
+- [2025-04-01] feat: add Llama-3-70B with Llama-3-8B empirical latency presets
