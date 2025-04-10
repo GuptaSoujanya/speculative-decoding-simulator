@@ -92,3 +92,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-02-05] feat: model intermediate layer exit verification vs full network execution
 - [2025-02-26] test: add unit tests verifying self-speculative decoding requires zero extra VRAM
 - [2025-03-20] docs: document self-speculative decoding trade-offs on memory-constrained GPUs
+- [2025-04-10] feat: add dynamic draft length adjustment based on real-time acceptance rate
