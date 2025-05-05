@@ -53,3 +53,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-04-01] feat: add Llama-3-70B with Llama-3-8B empirical latency presets
 - [2025-04-12] feat: add Qwen-2.5-72B with Qwen-2.5-7B empirical latency presets
 - [2025-04-24] test: verify empirical model presets produce plausible speedup factors > 1.8x
+- [2025-05-05] feat: add --preset flag to load calibrated model pairs instantly
