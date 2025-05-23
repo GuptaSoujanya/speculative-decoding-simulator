@@ -94,3 +94,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-03-20] docs: document self-speculative decoding trade-offs on memory-constrained GPUs
 - [2025-04-10] feat: add dynamic draft length adjustment based on real-time acceptance rate
 - [2025-05-01] test: verify dynamic controller decreases K when acceptance rate drops below 0.4
+- [2025-05-23] fix: prevent oscillation in dynamic draft window size controller
