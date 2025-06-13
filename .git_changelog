@@ -95,3 +95,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-04-10] feat: add dynamic draft length adjustment based on real-time acceptance rate
 - [2025-05-01] test: verify dynamic controller decreases K when acceptance rate drops below 0.4
 - [2025-05-23] fix: prevent oscillation in dynamic draft window size controller
+- [2025-06-13] perf: optimize dynamic controller update frequency to avoid per-token overhead
