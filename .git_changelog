@@ -98,3 +98,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-06-13] perf: optimize dynamic controller update frequency to avoid per-token overhead
 - [2025-07-04] docs: add benchmark comparison: fixed K=5 vs dynamic adaptive K controller
 - [2025-07-26] feat: add export to Perfetto / Chrome tracing format for timeline visualization
+- [2025-08-16] test: verify generated trace JSON loads cleanly in standard tracing tools
