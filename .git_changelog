@@ -65,3 +65,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-08-15] feat: add export of simulated token latency timeline to JSON trace format
 - [2025-08-26] perf: precompute binomial probability tables for Monte Carlo trials
 - [2025-09-07] test: add stress tests verifying memory consumption remains constant over 100k steps
+- [2025-09-18] chore: release v1.0.0 production milestone with verified tree decoding
