@@ -100,3 +100,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-07-26] feat: add export to Perfetto / Chrome tracing format for timeline visualization
 - [2025-08-16] test: verify generated trace JSON loads cleanly in standard tracing tools
 - [2025-09-06] chore: bump release to v1.1.0 with adaptive draft controller
+- [2025-09-28] docs: add hardware guide for NVIDIA Blackwell B200 memory bandwidth considerations
