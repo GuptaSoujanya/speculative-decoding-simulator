@@ -68,3 +68,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-09-18] chore: release v1.0.0 production milestone with verified tree decoding
 - [2025-09-29] docs: add release notes for v1.0.0 covering empirical speedup validations
 - [2025-10-11] feat: implement self-speculative decoding (early-exit layer skipping)
+- [2025-10-22] feat: model intermediate layer exit verification vs full network execution
