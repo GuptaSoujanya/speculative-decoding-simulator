@@ -75,3 +75,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-12-06] chore: finalize milestone v1.1.0 configuration schema
 - [2026-01-10] feat: add dynamic draft length adjustment based on real-time acceptance rate
 - [2026-01-25] test: verify dynamic controller decreases K when acceptance rate drops below 0.4
+- [2026-02-09] fix: prevent oscillation in dynamic draft window size controller
