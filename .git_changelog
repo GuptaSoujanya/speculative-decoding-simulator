@@ -104,3 +104,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-10-19] chore: update dependencies and bump minimum Python version to 3.10
 - [2025-11-09] chore: clean up test fixtures and modernize assertion messages
 - [2026-01-10] feat: add DeepSeek-V3 dual-pipe speculative execution simulation
+- [2026-02-12] feat: model communication-computation overlap in multi-node speculative decoding
