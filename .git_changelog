@@ -80,3 +80,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-03-11] docs: add benchmark comparison: fixed K=5 vs dynamic adaptive K controller
 - [2026-03-26] feat: add export to Perfetto / Chrome tracing format for timeline visualization
 - [2026-04-11] test: verify generated trace JSON loads cleanly in standard tracing tools
+- [2026-04-26] feat: add DeepSeek-V3 dual-pipe speculative execution simulation
