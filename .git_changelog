@@ -108,3 +108,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-03-17] test: verify overlap efficiency models theoretical 2.4x throughput gain
 - [2026-04-19] docs: document speculative decoding in large-scale MoE architectures
 - [2026-05-22] perf: accelerate simulation inner loop with compiled C-level helpers
+- [2026-06-24] fix: ensure compatibility with Python 3.12 and modern typing constructs
