@@ -88,3 +88,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-07-11] fix: ensure compatibility with Python 3.12 and modern typing constructs
 - [2026-07-26] test: verify all simulation benchmarks reproduce identical results across platforms
 - [2026-08-10] chore: bump version to v1.2.4 and update reference documentation
+- [2026-08-25] docs: add comprehensive tutorial for fine-tuning draft models
