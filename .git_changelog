@@ -89,3 +89,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-07-26] test: verify all simulation benchmarks reproduce identical results across platforms
 - [2026-08-10] chore: bump version to v1.2.4 and update reference documentation
 - [2026-08-25] docs: add comprehensive tutorial for fine-tuning draft models
+- [2026-09-09] test: add regression test suite for calibrated model presets
