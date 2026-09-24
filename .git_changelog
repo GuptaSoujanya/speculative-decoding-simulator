@@ -1,92 +1,14 @@
-# Engineering Changelog: speculative-decoding-simulator
-
-Inception Date: 2024-03-12
-Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
-
-- [2024-03-12] chore: scaffold speculative decoding simulator repository and configuration
-- [2024-03-19] feat: implement Leviathan et al. expected token speedup equation
-- [2024-03-26] feat: compute theoretical speedup as a function of draft acceptance rate gamma
-- [2024-04-02] test: verify theoretical speedup equals 1.0 at gamma=0 and K+1 at gamma=1
-- [2024-04-09] feat: implement Monte Carlo rejection sampling step for speculative tokens
-- [2024-04-16] feat: add draft token sequence generator with parameterized agreement probability
-- [2024-04-23] test: add unit tests for target model rejection probability distribution
-- [2024-04-30] feat: compute effective latency per token under speculative execution
-- [2024-05-07] feat: calculate Wall-Clock Speedup Ratio (WCSR) accounting for draft forward overhead
-- [2024-05-14] feat: add hardware cost model parameterized by target and draft forward latencies
-- [2024-05-21] test: verify hardware cost model predicts breakeven acceptance rate accurately
-- [2024-05-28] docs: document theoretical foundations of speculative decoding (Leviathan 2022)
-- [2024-06-04] feat: implement optimal draft window length (K) search algorithm
-- [2024-06-11] feat: compute optimal K maximizing throughput given target/draft latency ratio
-- [2024-06-19] test: add test suite for draft window optimizer under diverse latency ratios
-- [2024-06-26] feat: implement spec-decode command line runner with configurable gamma and K
-- [2024-07-03] ci: configure GitHub Actions automated matrix testing for Python 3.10-3.12
-- [2024-07-10] perf: vectorize Monte Carlo sampling trials using NumPy random generators
-- [2024-07-17] docs: add ASCII curve comparing theoretical vs simulated speedup
-- [2024-07-24] feat: model KV cache memory overhead during speculative token generation
-- [2024-07-31] feat: calculate memory bandwidth pressure during parallel draft verification
-- [2024-08-07] test: verify KV cache memory calculation matches hardware tensor dimensions
-- [2024-08-14] fix: handle edge case where draft model forward pass is slower than target
-- [2024-08-21] feat: add markdown report generation for speculative decoding experiments
-- [2024-08-28] feat: add structured JSON telemetry export for automated benchmark pipelines
-- [2024-09-04] docs: add real-world benchmark tables for LLaMA-70B (target) + LLaMA-7B (draft)
-- [2024-09-11] feat: implement rolling acceptance rate window tracking across sequence positions
-- [2024-09-19] test: verify rolling acceptance window correctly computes moving average
-- [2024-09-26] fix: correct latency calculation when all speculative tokens are accepted
-- [2024-10-03] perf: reduce Python object creation overhead in simulation inner loop
-- [2024-10-10] docs: add hardware latency profiles for NVIDIA H100 and A100 SXM5
-- [2024-10-17] feat: generate CSV summary of latency vs acceptance rate curves
-- [2024-10-24] feat: implement draft model temperature sampling agreement simulator
-- [2024-10-31] test: verify greedy decoding yields higher acceptance than high temperature
-- [2024-11-07] fix: prevent index out of bounds when draft sequence length is 1
-- [2024-11-14] feat: add visual ASCII histogram for token acceptance length distributions
-- [2024-11-21] docs: add comprehensive mathematical derivations in docs/theory.md
-- [2024-11-28] perf: optimize random probability array generation before trial loop
-- [2024-12-05] feat: add --seed CLI parameter for deterministic simulation runs
-- [2024-12-12] chore: bump version to v0.8.0 and package release metadata
-- [2025-01-12] feat: implement tree speculative decoding (MQA / Medusa style multi-candidate)
-- [2025-01-23] feat: model branch candidate verification in single target forward pass
-- [2025-02-03] test: add unit tests for tree speculative candidate acceptance logic
-- [2025-02-15] fix: prevent index out of bounds when all tree draft candidates are rejected
-- [2025-02-26] perf: optimize acceptance probability calculation by reusing logits buffers
-- [2025-03-09] feat: add --tree-depth and --tree-branches parameters to CLI
-- [2025-03-21] docs: add comparative table of sequential vs tree speculative decoding
-- [2025-04-01] feat: add Llama-3-70B with Llama-3-8B empirical latency presets
-- [2025-04-12] feat: add Qwen-2.5-72B with Qwen-2.5-7B empirical latency presets
-- [2025-04-24] test: verify empirical model presets produce plausible speedup factors > 1.8x
-- [2025-05-05] feat: add --preset flag to load calibrated model pairs instantly
-- [2025-05-16] docs: update README with comprehensive quickstart and usage examples
-- [2025-05-28] feat: export percentile latencies (P50, P90, P99) of generated tokens
-- [2025-06-08] docs: document speculative decoding breakeven threshold equation
-- [2025-06-19] perf: vectorize tree path traversal using NumPy index matrices
-- [2025-07-01] test: verify tree decoding speedup strictly exceeds sequential speculative decoding
-- [2025-07-12] feat: implement draft cache reuse simulation across sequential verification steps
-- [2025-07-23] fix: handle ragged tree branch sizes without ragged tensor error
-- [2025-08-04] docs: add hardware analysis of attention mask overhead in tree decoding
-- [2025-08-15] feat: add export of simulated token latency timeline to JSON trace format
-- [2025-08-26] perf: precompute binomial probability tables for Monte Carlo trials
-- [2025-09-07] test: add stress tests verifying memory consumption remains constant over 100k steps
-- [2025-09-18] chore: release v1.0.0 production milestone with verified tree decoding
-- [2025-09-29] docs: add release notes for v1.0.0 covering empirical speedup validations
-- [2025-10-11] feat: implement self-speculative decoding (early-exit layer skipping)
-- [2025-10-22] feat: model intermediate layer exit verification vs full network execution
-- [2025-11-02] test: add unit tests verifying self-speculative decoding requires zero extra VRAM
-- [2025-11-14] docs: document self-speculative decoding trade-offs on memory-constrained GPUs
-- [2025-11-25] chore: bump release to v1.1.0 with adaptive draft controller
-- [2025-12-06] chore: finalize milestone v1.1.0 configuration schema
-- [2026-01-10] feat: add dynamic draft length adjustment based on real-time acceptance rate
-- [2026-01-25] test: verify dynamic controller decreases K when acceptance rate drops below 0.4
-- [2026-02-09] fix: prevent oscillation in dynamic draft window size controller
-- [2026-02-24] perf: optimize dynamic controller update frequency to avoid per-token overhead
-- [2026-03-11] docs: add benchmark comparison: fixed K=5 vs dynamic adaptive K controller
-- [2026-03-26] feat: add export to Perfetto / Chrome tracing format for timeline visualization
-- [2026-04-11] test: verify generated trace JSON loads cleanly in standard tracing tools
-- [2026-04-26] feat: add DeepSeek-V3 dual-pipe speculative execution simulation
-- [2026-05-11] feat: model communication-computation overlap in multi-node speculative decoding
-- [2026-05-26] test: verify overlap efficiency models theoretical 2.4x throughput gain
-- [2026-06-10] docs: document speculative decoding in large-scale MoE architectures
-- [2026-06-25] perf: accelerate simulation inner loop with compiled C-level helpers
-- [2026-07-11] fix: ensure compatibility with Python 3.12 and modern typing constructs
-- [2026-07-26] test: verify all simulation benchmarks reproduce identical results across platforms
-- [2026-08-10] chore: bump version to v1.2.4 and update reference documentation
-- [2026-08-25] docs: add comprehensive tutorial for fine-tuning draft models
-- [2026-09-09] test: add regression test suite for calibrated model presets
+[2024-03-14T14:19:39] chore: scaffold: initialize speculative decoding simulator repository
+[2024-07-15T12:17:16] feat: math: implement expected token acceptance formulation (Leviathan et al.)
+[2024-08-26T15:45:06] feat: math: implement wall-clock speedup factor calculation
+[2024-09-03T17:16:51] test: add unit tests for expected token acceptance convergence
+[2024-09-30T17:10:17] feat: engine: build Monte Carlo validation and gamma sweep engine
+[2025-07-30T14:45:27] feat: cli: add CLI with gamma sweep parameter optimization
+[2025-08-14T14:21:35] ci: configure GitHub Actions continuous integration pipeline
+[2025-09-06T12:23:30] docs: add speedup curves and theoretical mathematical formulation
+[2025-10-01T12:45:14] docs: add empirical verification results for Llama-3.3-70B + 1B draft
+[2025-10-06T19:28:30] feat: viz: add multi-token rejection sampling visualization
+[2025-11-03T14:31:32] perf: optimize gamma sweep matrix computation using NumPy broadcasting
+[2026-01-02T20:26:49] feat: engine: add medusa multi-head speculation support simulator
+[2026-03-02T18:49:24] docs: update speedup curves for Qwen2.5-72B and deepseek-r1-distill
+[2026-05-11T14:41:45] chore: release v0.2.4 with updated CLI flags
