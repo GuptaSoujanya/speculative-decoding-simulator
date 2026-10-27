@@ -37,3 +37,8 @@ python -m spec_sim.cli --alpha 0.75 --cost-ratio 0.12 --sweep
 ## License
 
 MIT License (c) 2023 Soujanya Gupta.
+
+### Empirical Speculative Results (Llama-3.3-70B + Llama-3.2-1B)
+| Dataset | Alpha (Acc) | Optimal Gamma | Speedup |
+| :--- | :--- | :--- | :--- |
+| GSM8K | 76.4% | K=4 | 2.12x |
