@@ -44,3 +44,5 @@ python -m spec_sim.cli --alpha 0.76 --gamma 4
 ## License
 
 MIT License (c) 2024 Soujanya Gupta.
+
+<!-- Qwen2.5-72B Speculative Results: Alpha=77.2%, Speedup=2.18x -->
