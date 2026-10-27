@@ -60,3 +60,5 @@ MIT License (c) 2024 Soujanya Gupta.
 <!-- PR #72: fix: prevent potential zero division during variance calculation -->
 
 <!-- PR #85: feat: add timestamp logging to telemetry output -->
+
+<!-- PR #98: chore: update pre-commit linter configurations -->
