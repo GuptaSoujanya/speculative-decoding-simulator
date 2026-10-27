@@ -48,3 +48,5 @@ MIT License (c) 2024 Soujanya Gupta.
 <!-- Qwen2.5-72B Speculative Results: Alpha=77.2%, Speedup=2.18x -->
 
 <!-- PR #7: docs: clarify benchmark metric configuration options -->
+
+<!-- PR #20: perf: optimize memory buffer reuse during batch evaluation -->
